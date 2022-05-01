@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+  background-color: aliceblue;
+}
+
+#mainbox {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+}
+
+header {
+  width: inherit;
+  height: 100px;
+  border-bottom: solid blue 1px;
+}
+
+
+header img {
+  float: left;
+}
+
+header p {
+  float: left;
+  font-size: 5em;
+  margin-top: 5px;
+	margin-left: 30px;
+  color: rgb(19, 78, 157);
+  font-weight: bolder;
+}
+
+nav {
+  padding: 0;
+  width: inherit;
+  height: 20px;
+  clear: both;
+  border-bottom: solid blue 1px;
+  font-size: 1.5em;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin-left: 5px;;
+}
+
+nav ul li {
+  padding: 0;
+  display: inline;
+  margin-right: 2em;
+}
+
+main {
+  min-height: 350px;
+  padding: 20px;
+}
+
+label {
+  clear: both;
+  float: left;
+  margin-right: 0.5em;
+  width: 100px;
+}
+.submit{
+	clear: both;
+  float: left;
+  margin-right: 0.5em;
+}
+input {
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+.area {
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+.submit {
+  clear: both;
+  margin-top: 2em;
+  margin-right: 0.5em;
+}
+
+.terug {
+  float: right;
+}
+
+.out td {
+  padding: 8px;
+  text-align: left;
+}
+
+.naam {
+  clear: both;
+  float: left;
+  margin-right: 0.5em;
+  width: 100px;
+}
+
+.waarde {
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+#gender,
+#soort {
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+#invoer label {
+  clear: both;
+  width: 45%;
+  float: left;
+  margin: 0.3em 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#invoer input {
+  float: left;
+  margin: 0.3em 0 0 1em;
+}
+
+.submit {
+  clear: both;
+  margin: 0;
+}
+
+#artMain {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  width: 90%;
+  clear: both;
+  height: 40px;
+  border-top: solid blue 1px;
+  padding-top: 1em;
+  padding-left: 2%;
+}
+
+.boodschap {
+  margin-top: 50px;
+}
+
+main {
+  min-height: 400px;
+}
+
+.temp{
+  color: blue;
+  font-size: 2em;
+  font-weight: 500;
+}
